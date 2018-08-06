@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Estaciones del metro">
+        <menu>
+            <item
+                android:id="@+id/nav_horariosMetro"
+                android:icon="@drawable/ic_menu_birrete"
+                android:title="Horarios"
+                />
+            <item
+                android:id="@+id/nav_quevedo"
+                android:icon="@drawable/ic_menu_quevedo"
+                android:title="Miguel Ángel de Quevedo"
+                />
+            <item
+                android:id="@+id/nav_muerto"
+                android:icon="@drawable/ic_menu_muerto"
+                android:title="Barranca del Muerto"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Santa Teresa">
+        <menu>
+            <item
+                android:id="@+id/nav_horariosTeresa"
+                android:icon="@drawable/ic_menu_birrete"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_teresa"
+                android:icon="@drawable/ic_menu_birrete"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

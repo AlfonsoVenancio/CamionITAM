@@ -10,7 +10,7 @@ Esta aplicación fue desarrollada por miembros del [Laboratorio de dispositivos 
 
 ## Licencia
 
-Este proyecto esta licenciado bajo la GNU General Public License - puedes ver el archivo [LICENSE.md](LICENSE.md) para más detalles
+Este proyecto esta licenciado bajo la GNU General Public License - puedes ver el archivo [LICENSE](LICENSE) para más detalles
 
 
 

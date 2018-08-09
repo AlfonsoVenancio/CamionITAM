@@ -12,7 +12,7 @@ local.properties
 
 # Signing files
 .signing/
-
+.vscode
 # User-specific configurations
 .idea/libraries/
 .idea/workspace.xml

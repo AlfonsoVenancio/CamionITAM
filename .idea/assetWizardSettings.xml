@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -13,8 +18,9 @@
                       <PersistentState>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_menu_muerto" />
-                            <entry key="sourceFile" value="C:\Users\alfon" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_menu_itam" />
+                            <entry key="sourceFile" value="C:\Users\alfon\Desktop\Untitled-4.svg" />
                           </map>
                         </option>
                       </PersistentState>

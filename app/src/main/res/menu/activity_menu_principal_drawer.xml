@@ -5,34 +5,39 @@
 
     <item android:title="Estaciones del metro">
         <menu>
-            <item
-                android:id="@+id/nav_horariosMetro"
-                android:icon="@drawable/ic_menu_birrete"
-                android:title="Horarios"
-                />
-            <item
-                android:id="@+id/nav_quevedo"
-                android:icon="@drawable/ic_menu_quevedo"
-                android:title="Miguel Ángel de Quevedo"
-                />
-            <item
-                android:id="@+id/nav_muerto"
-                android:icon="@drawable/ic_menu_muerto"
-                android:title="Barranca del Muerto"
-                />
+            <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_horariosMetro"
+                        android:icon="@drawable/ic_menu_metro"
+                        android:title="Horarios"
+                        />
+                    <item
+                        android:id="@+id/nav_quevedo"
+                        android:icon="@drawable/ic_menu_quevedo"
+                        android:title="Miguel Ángel de Quevedo"
+                        />
+                    <item
+                        android:id="@+id/nav_muerto"
+                        android:icon="@drawable/ic_menu_muerto"
+                        android:title="Barranca del Muerto"
+                        />
+            </group>
         </menu>
     </item>
 
+
     <item android:title="Santa Teresa">
         <menu>
-            <item
-                android:id="@+id/nav_horariosTeresa"
-                android:icon="@drawable/ic_menu_birrete"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_teresa"
-                android:icon="@drawable/ic_menu_birrete"
-                android:title="Send" />
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_horariosTeresa"
+                    android:icon="@drawable/ic_menu_birrete"
+                    android:title="Horarios" />
+                <item
+                    android:id="@+id/nav_teresa"
+                    android:icon="@drawable/ic_menu_itam"
+                    android:title="Santa Teresa" />
+            </group>
         </menu>
     </item>
 

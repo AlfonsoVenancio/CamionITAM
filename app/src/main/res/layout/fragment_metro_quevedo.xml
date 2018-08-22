@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Fragmentos.metroQuevedo">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragmentos.metroQuevedo"
+    android:id="@+id/coordinatorQuevedo">
 
-    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/content_bottom_sheet_aproximado" android:fitsSystemWindows="true"/>
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible" />
-</FrameLayout>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapViewQuevedo"
+            android.name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

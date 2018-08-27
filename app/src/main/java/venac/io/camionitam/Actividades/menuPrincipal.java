@@ -94,6 +94,9 @@ public class menuPrincipal extends AppCompatActivity
         } else if (id == R.id.nav_teresa) {
             fragmentoSeleccionado = new campusTeresa();
             transaccionSeleccionada = true;
+        } else if (id == R.id.nav_notificaciones){
+            fragmentoSeleccionado = new creacionNotificacion();
+            transaccionSeleccionada = true;
         }
         if(transaccionSeleccionada){
             getSupportFragmentManager().beginTransaction().replace(R.id.content_fragment,fragmentoSeleccionado).commit();

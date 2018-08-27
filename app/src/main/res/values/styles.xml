@@ -21,4 +21,18 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Overwrite the ToggleButton style -->
+    <style name="Widget.Button.Toggle" parent="android:Widget">
+        <item name="android:background">@drawable/btn_toggle_bgq</item>
+        <item name="android:textOn">Add</item>
+        <item name="android:textOff">Del</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="toggleMiStyle"  parent="@android:style/Theme.Black">
+        <item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+
 </resources>

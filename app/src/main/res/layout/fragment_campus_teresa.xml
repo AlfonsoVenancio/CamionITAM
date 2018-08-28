@@ -15,5 +15,7 @@
         android:id="@+id/mapViewTeresa"
         android.name="com.google.android.gms.maps.MapFragment"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:paddingBottom="30dp"
+        />
 </android.support.design.widget.CoordinatorLayout>
